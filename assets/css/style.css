@@ -1,6 +1,6 @@
 .icon {
-  width: 62px;
-  height: 62px;
+  width: 60px;
+  height: 60px;
   background: white;
 }
 
@@ -26,6 +26,13 @@
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 70%;
+    width: 80%;
   }
+}
+
+#buck {
+   height: 200px;
+   width: 200px;
+   margin: auto;
+   display: block;
 }

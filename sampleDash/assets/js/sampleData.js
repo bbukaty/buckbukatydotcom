@@ -126,7 +126,7 @@ var sampleDashData = {
       "icon": "assets/img/social.png"
     },
     {
-      "name": "Savings App",
+      "name": "Savings App - Click Me!",
       "appID": "3",
       "status": {
         "CRMID": 0,
