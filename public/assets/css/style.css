@@ -1,3 +1,15 @@
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 80%;
+  }
+}
+
 .icon {
   width: 60px;
   height: 60px;
@@ -18,16 +30,25 @@
   width: 90%;
 }
 
-@media only screen and (min-width: 601px) {
-  .container {
-    width: 85%;
-  }
+.header {
+  color: rgba(0, 0, 0, 0); /* header starts out transparent */
 }
 
-@media only screen and (min-width: 993px) {
-  .container {
-    width: 80%;
-  }
+#header-1 {
+  animation: fade-in 2s forwards 0.5s;
+}
+
+#header-2 {
+  animation: fade-in 2s forwards 2.5s;
+}
+
+@keyframes fade-in {
+  from { color: rgba(0, 0, 0, 0); }
+  to { color: rgba(0, 0, 0, 1); }
+}
+
+.medium-font {
+  font-size: 120%;
 }
 
 #buck {
@@ -37,6 +58,11 @@
    display: block;
 }
 
-.medium-font {
-  font-size: 120%;
+.separator {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#connect {
+  margin-bottom: 40px;
 }
