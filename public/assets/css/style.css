@@ -35,11 +35,11 @@
 }
 
 #header-1 {
-  animation: fade-in 2s forwards 0.5s;
+  animation: fade-in 1.5s forwards 0.5s;
 }
 
 #header-2 {
-  animation: fade-in 2s forwards 2.5s;
+  animation: fade-in 1.2s forwards 2s;
 }
 
 @keyframes fade-in {
