@@ -1,3 +1,6 @@
 [submodule "public/VG-relations"]
 	path = public/VG-relations
 	url = https://github.com/bbukaty/VG-relations.git
+[submodule "public/scroll"]
+	path = public/scroll
+	url = https://github.com/bbukaty/scroll.git
