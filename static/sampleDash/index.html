@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Dashboard</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+  <!--  Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script src="assets/js/shared.js"></script>
+  <script src="assets/js/sampleData.js"></script>
+  <script src="assets/js/initDash.js"></script>
+    
+</head>
+
+<body class="grey lighten-3">
+  <nav class="blue">
+    <div class="nav-wrapper container-wide">
+      <a id="logo-container" href="" class="brand-logo left">Dashboard</a>
+      <ul class="right">
+        <li><a class="btn green lighten-2 waves-effect waves-light" href="#addCustomerModal">Add Customer</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="fixed-action-btn click-to-toggle" style="bottom: 24px; right: 24px;">
+    <a id="sortBtn" class="btn-floating btn-large red">
+      <i class="material-icons">sort</i>
+    </a>
+    <ul>
+      <li>
+        <a id="sortBtn-touchPoint" class="btn-floating green lighten-1">
+          <i class="material-icons">timelapse</i>
+        </a>
+        <a class="fab-tip">By TouchPoint</a>
+      </li>
+      <li>
+        <a id="sortBtn-name" class="btn-floating green lighten-1">
+          <i class="material-icons">sort_by_alpha</i>
+        </a>
+        <a class="fab-tip">By Name</a>
+      </li>
+      <li>
+        <a id="sortBtn-status" class="btn-floating green lighten-1">
+          <i class="material-icons">format_list_numbered</i>
+        </a>
+        <a class="fab-tip">By Status</a>
+      </li>
+    </ul>
+  </div>
+  <div class="section">
+    <div class="container-wide">
+      <div class="row" id="KPICardsDiv">
+        <!-- KPI cards added here -->
+      </div>
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel white">
+            <div class="input-field">
+              <i class="material-icons prefix">search</i>
+              <!-- Searchbar enabled on page load -->
+              <input disabled type="text" id="searchBar" class="autocomplete">
+              <label for="searchBar">Search Customers</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="customerCardsDiv">
+        <!-- Customer cards added here -->
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal Structure -->
+  <div id="addCustomerModal" class="modal">
+    <div class="modal-content">
+      <span class="title">Add Customer</span>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="addCustomer-name" type="text" class="validate">
+          <label for="addCustomer-name">App Name</label>
+        </div>
+        <div class="input-field col s6">
+          <select id="addCustomer-vertical">
+            <option value="Social">Social</option>
+            <option value="Health and Wellness">Health and Wellness</option>
+            <option value="FinTech">FinTech</option>
+            <option value="Gaming">Gaming</option>
+            <option value="Productivity">Productivity</option>
+            <option value="Dev Shop">Dev Shop</option>
+            <option value="Education">Education</option>
+            <option value="Developer Tools">Developer Tools</option>
+            <option value="Ecommerce and Loyalty">Ecommerce and Loyalty</option>
+          </select>
+          <label>Vertical</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="addCustomer-stakeholder" type="text" class="validate">
+          <label for="addCustomer-stakeholder">Stakeholder</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="addCustomer-email" type="email" class="validate">
+          <label for="addCustomer-email" data-error="Invalid email">Email</label>
+        </div>
+        <div class="input-field col s12">
+          <select id="addCustomer-product">
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+          </select>
+          <label>Product</label>
+        </div>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button id="addCustomer-submit" class="btn waves-effect waves-light">Submit
+        <i class="material-icons right">send</i>  
+      </button>
+    </div>
+  </div>
+  
+  <!-- Tap Target for Sort Button -->
+  <div class="tap-target" data-activates="sortBtn">
+    <div class="tap-target-content">
+      <h5>Click me to sort customers!</h5>
+      <p>Click again to hide sort options.</p>
+    </div>
+  </div>
+  
+  <!-- the only script that doesn"t need to be up there -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  </body>
+</html>

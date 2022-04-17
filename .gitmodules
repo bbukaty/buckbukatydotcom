@@ -1,6 +1,6 @@
-[submodule "public/VG-relations"]
-	path = public/VG-relations
+[submodule "themes/researcher"]
+	path = themes/researcher
+	url = https://github.com/ojroques/hugo-researcher.git
+[submodule "static/VG-relations"]
+	path = static/VG-relations
 	url = https://github.com/bbukaty/VG-relations.git
-[submodule "public/scroll"]
-	path = public/scroll
-	url = https://github.com/bbukaty/scroll.git
