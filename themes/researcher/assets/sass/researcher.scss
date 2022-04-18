@@ -1,0 +1,197 @@
+// Sizes
+$max-width: {{ .Param "style.pageWidth" | default "750px;" }};
+$avatar-size: {{ .Param "style.avatarSize" | default "90px;" }};
+
+// Colors
+$black: {{ .Param "style.colorBlack" | default "#222222" }};
+$red: {{ .Param "style.colorRed" | default "#dc3545" }};
+
+// Font
+$font-family: {{ .Param "style.fontFamily" | default "Inconsolata" }};
+
+// Margins
+$y-small: 0.6rem;
+$y-medium: 1.0rem;
+
+// Placeholders
+%link-default {
+    color: $red;
+    text-decoration: none;
+    & * {
+        color: $red;
+    }
+    &:hover {
+        color: $red;
+        text-decoration: underline;
+    }
+}
+%link-dark {
+    color: $black;
+    text-decoration: none;
+    & * {
+        color: $black;
+    }
+    &:hover {
+        color: $black;
+        text-decoration: underline;
+    }
+}
+%table-cell {
+    border: 1px solid #cccccc;
+    padding: 6px 12px;
+    text-align: left;
+}
+
+// Style
+* {
+    color: $black;
+    font-family: $font-family;
+    line-height: 1.2;
+}
+.container {
+    max-width: $max-width;
+}
+.navbar-brand {
+    @extend %link-dark;
+    font-size: 2rem;
+}
+.nav-link {
+    @extend %link-default;
+}
+#content {
+    a {
+        @extend %link-default;
+    }
+    p {
+        margin-bottom: $y-small;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-size: medium;
+        font-weight: bold;
+        margin: $y-medium 0 $y-small 0;
+    }
+    @for $i from 1 through 4 {
+        h#{$i} {
+            font-size: 1.2rem + 0.2 * (4 - $i);
+        }
+    }
+    img {
+        display: block;
+        margin: $y-medium auto;
+        max-width: 100%;
+    }
+    .avatar > img {
+        border-radius: 50%;
+        float: right;
+        margin: -8px 0 0 16px;
+        height: $avatar-size;
+        width: $avatar-size;
+    }
+    ol {
+        counter-reset: list;
+        list-style: none;
+        padding-left: 2rem;
+        & > li {
+            display: table-row;
+        }
+        & > li:before {
+            content: "[" counter(list, decimal) "] ";
+            counter-increment: list;
+            display: table-cell;
+            text-align: right;
+            padding-right: .5em;
+        }
+    }
+    .container > ol, .footnotes > ol {
+        padding-left: 0;
+    }
+    ul {
+        list-style: inside;
+        padding-left: 2rem;
+        & > li {
+            list-style-position: outside;
+            margin-left: 1em;
+        }
+    }
+    .container > ul, .footnotes > ul {
+        padding-left: 0;
+    }
+    table {
+        margin: $y-medium auto;
+        width: 100%;
+        & th {
+            @extend %table-cell;
+            font-weight: bold;
+        }
+        & td {
+            @extend %table-cell;
+        }
+        & tr:nth-child(2n) {
+            background-color: #f8f8f8;
+        }
+    }
+    blockquote {
+        border-left: 4px solid;
+        font-style: italic;
+        margin: $y-medium 0;
+        padding: 8px 8px;
+    }
+    code {
+        color: $black;
+        background-color: #f8f8f8;
+        border: 1px solid #cccccc;
+        border-radius: 10%;
+        padding: 0px 4px;
+    }
+    pre code {
+        all: unset;
+    }
+    .highlight {
+        margin: $y-medium auto;
+        & > pre {
+            padding: 8px 8px;
+        }
+    }
+}
+#footer {
+    a {
+        @extend %link-dark;
+    }
+}
+
+/* latin-ext */
+@font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=ijwUs5PnXdA4ZZUA6Zd-&skey=8887f17a62203d44&v=v12) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=ijwUs5PnXdA4ZZUA55d-&skey=8887f17a62203d44&v=v12) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=ijwXs5PnXdA4ZZUIXLJruENE&skey=fbb3d175e6a898d2&v=v12) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/l/font?kit=ijwXs5PnXdA4ZZUIXLJrtkNE&skey=fbb3d175e6a898d2&v=v12) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
