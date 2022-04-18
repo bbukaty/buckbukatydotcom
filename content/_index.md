@@ -9,23 +9,26 @@ title = "Howdy."
 Howdy. I'm Raymond Bukaty, but everyone calls me **Buck**.  
 I'm a software engineer, most recently at Atlassian.  
 
-I took some time off in the beginning of 2022 to do a number of things, like train for a half marathon, make [paintings with a robot](https://photos.app.goo.gl/VcmkXaNSP8ddhKYA6), and build [SpiritForge](https://spiritforge.app/) with a friend.
-
-Now I'm starting to look for new opportunities, with a preference for small and medium companies with a direct positive impact.  
-
-Check out [my resume](resume.pdf), and feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
+Check out [my resume](resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
 
 ---
 
 # Projects
-> These are some of the projects I've worked on for classes, internships, or for fun.  
-> For the most accurate representation of my professional skills these days, though, definitely check out [my resume](resume.pdf).
-
+*These are some of the projects I've worked on for classes, internships, or for fun.  
+For the most accurate representation of my professional skills these days, though, definitely check out [my resume](resume.pdf).*
 ## SpiritForge
-A friend and I created a web tool to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
+I took some time off from work in early of 2022. One of the bigger projects that I worked on during this time was [SpiritForge](https://spiritforge.app), a web tool I made with my friend Marina Landis to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
 
 [Check it out here.](https://spiritforge.app)  
 *2022*
+
+## Generative Art
+I had a lot of fun taking a class called *Drawing with Code* my junior year at Stanford, and since then I've sporadically created more generative art for fun.  
+
+Recently I bought an Axidraw pen plotter, which I've been able to use to create some very unique paintings.  
+
+[Album here.](https://photos.app.goo.gl/VcmkXaNSP8ddhKYA6)  
+*Ongoing*
 
 ## VG-Relations
 I made a neat visualization of Ranjay Krishna's "Visual Genome" dataset while I was interning with him at the [Stanford Vision and Learning Lab](http://svl.stanford.edu/).  
@@ -34,7 +37,7 @@ I made a neat visualization of Ranjay Krishna's "Visual Genome" dataset while I 
 *Summer 2018*
 
 ## CoNBot
-Exploring Behavioral Cloning and Reinforcement Learning in Crypt of the NecroDancer for [CS231N](http://cs231n.stanford.edu/2018/): Convolutional Neural Networks for Visual Recognition.  
+Worked with my friend Amy Kanne on an AI game-playing agent for the game Crypt of the NecroDancer as our final project for [CS231N](http://cs231n.stanford.edu/2018/): Convolutional Neural Networks for Visual Recognition. Wrote a nice article about what we did, which links to the code and our poster+paper.  
 
 [Check it out here.](https://bbukaty.github.io/CoNBot/)  
 *Spring 2018*
