@@ -1,5 +1,5 @@
 +++
-title = "Connect"
+title = "Buck Bukaty"
 +++
 
 * Email: [hello@buckbukaty.com](mailto:hello@buckbukaty.com)

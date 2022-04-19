@@ -10,7 +10,7 @@
             {{ with .Site.Menus.main }}
                 {{ $navbar_len := len . }}
                 {{ range $i, $nav_item := . }}
-                    <a class="nav-item nav-link" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}">
+                    <a class="nav-item nav-link" href="{{ $nav_item.URL }}" title="{{ $nav_item.Name }}" {{ if (eq $nav_item.Name "Resume") }} target="_blank" {{ end }}>
                         {{ $nav_item.Pre }}{{ $nav_item.Name }}{{ $nav_item.Post }}
                     </a>
                     {{ if ne (add $i 1) $navbar_len }}
