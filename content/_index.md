@@ -6,7 +6,7 @@ title = "Buck Bukaty"
 
 {{< figure class="avatar" src="/profile-2022.png" alt="avatar">}}
 
-Howdy. I'm Raymond Bukaty, but everyone calls me **Buck**.  
+Howdy. I'm Raymond Bukaty, but everyone calls me **Buck** (he/him).  
 I'm a software engineer, most recently at Atlassian.  
 
 Check out [my resume](resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
