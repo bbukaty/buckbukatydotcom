@@ -1,5 +1,9 @@
 ## Buck Bukaty Personal Website
 
+### Prerequisites:
+- Firebase CLI Tools (requires Node)
+- Hugo
+
 Test changes locally with 
 ```
 hugo serve
