@@ -1,3 +1,6 @@
 [submodule "static/VG-relations"]
 	path = static/VG-relations
 	url = https://github.com/bbukaty/VG-relations.git
+[submodule "static/kanji-morph"]
+	path = static/kanji-morph
+	url = https://github.com/bbukaty/kanji-morph.git
