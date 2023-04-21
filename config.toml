@@ -11,13 +11,13 @@ googleAnalytics = ""  # add your tracking id
   description = "Buck Bukaty's personal website."
   logo = ""  # url or path to a logo to put in the header
   [params.footer]
-    text = "© 2022 Buck Bukaty"
+    text = "© 2023 Buck Bukaty"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Avenir"
-    pageWidth = "750px"
+    pageWidth = "800px"
     avatarSize = "150px"
     colorBlack = "#222222"
-    colorRed = "#3f8a5d"
+    colorGreen = "#275e3d"
 
 
 [permalinks]
