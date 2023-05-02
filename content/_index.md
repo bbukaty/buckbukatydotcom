@@ -6,7 +6,7 @@ title = "Buck Bukaty"
 
 {{< figure class="avatar" src="/profile-2022.png" alt="avatar">}}
 
-Howdy. I'm Raymond Bukaty, but everyone calls me **Buck** (he/him).  
+Hello! I'm Raymond Bukaty, but everyone calls me **Buck** (he/him).  
 I'm a software engineer, most recently at Atlassian.  
 
 Check out [my resume](resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
@@ -34,7 +34,7 @@ So, here's KanjiMorph! It's a custom animation algorithm that morphs between kan
 ![](img/wk26.gif)
 
 ## SpiritForge
-One of the bigger projects that I worked on during my career break in 2022 was [SpiritForge](https://spiritforge.app), a web tool I made with my friend Marina Landis to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
+One of the bigger projects that I worked on during my career break in 2022 was [SpiritForge](https://spiritforge.app), a web tool I made with a friend to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
 
 
 [Check it out here.](https://spiritforge.app)  
@@ -55,14 +55,12 @@ I made a neat visualization of Ranjay Krishna's "Visual Genome" dataset while I 
 
 [Check it out here.](https://bbukaty.github.io/VG-relations/)  
 *Summer 2018*
-![](img/vg-relations.gif)
 
 ## CoNBot
-Worked with my friend Amy Kanne on an AI game-playing agent for the game Crypt of the NecroDancer as our final project for [CS231N](http://cs231n.stanford.edu/2018/): Convolutional Neural Networks for Visual Recognition. I wrote a nice summary article about what we did, which links to the code and our report+poster.  
+Worked with a project partner on an AI game-playing agent for the game Crypt of the NecroDancer as my final project for [CS231N](http://cs231n.stanford.edu/2018/): Convolutional Neural Networks for Visual Recognition. I wrote a nice summary article about what we did, which links to the code and our report+poster.  
 
 [Check it out here.](https://bbukaty.github.io/CoNBot/)  
 *Spring 2018*
-![](img/CoNBot-poster.png)
 
 ## Laser Lair
 A 3D puzzle game about using robots to get through a booby-trapped puzzle lair, made for CS248: Interactive Computer Graphics.  
@@ -76,7 +74,6 @@ I was a web dev intern at early stage company Boundless Mind, and I designed and
 
 [See a sample.](/sampleDash)  
 *Summer 2017*
-![](img/DopaDash.png)
 
 ## SplatterVR
 As a freshman, I participated in Stanford TreeHacks with 3 friends. We built a simple, fun VR experience for the HTC Vive in which you splatter paint around a massive white room.  
