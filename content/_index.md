@@ -1,33 +1,17 @@
-+++
-title = "Buck Bukaty"
-+++
-
-# About Me
-
-{{< figure class="avatar" src="/profile-2022.png" alt="avatar">}}
-
-Hello! I'm Raymond Bukaty, but everyone calls me **Buck** (he/him).  
-I'm a software engineer, most recently at Atlassian.  
-
-Check out [my resume](resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
-
-### My Next Adventure... 日本へ！
-In 2022, I downloaded a language study app to learn some survival Japanese because I was interested in traveling there someday. Before I knew it, I was fascinated with the language, as well as Japan’s unique culture and institutions.
-
-Now I’m rigorously self-studying written and spoken Japanese, and pursuing software engineering opportunities that would allow me to move to Japan in late 2023!
-
-In the meantime, I’ve found a part time job at a small Japanese-owned cafe in San Francisco, where I’m getting my first opportunities for real conversation practice with new coworkers and friends.
+---
+title: "Buck Bukaty"
+---
 
 ---
 
-# Projects
+# My Projects
 *These are some of the projects I've worked on for classes, internships, or for fun.  
-For professional skills, check out [my resume](resume.pdf).*
+For professional skills, check out [my resume](Buck_Bukaty_Resume.pdf).*
 
 ## KanjiMorph
-As I studied Japanese kanji characters, I wanted to make an art project of some sort involving kanji. I imagined them flowing between each other with "living" strokes.  
+As I studied Japanese kanji characters, I wanted to make an art project involving kanji. I imagined them flowing between each other with "living" strokes.  
 
-So, here's KanjiMorph! It's a custom animation algorithm that morphs between kanji characters by moving their individual strokes. To see it in action, look below for some of the kanji I’m studying this week!
+So, here's KanjiMorph! It's a custom animation algorithm I wrote that morphs between kanji characters by moving their individual strokes. To see it in action, look below for some of the kanji I’m studying this week!
 
 [Additional demo here.](https://buckbukaty.com/kanji-morph)  
 *April 2023*
@@ -42,7 +26,7 @@ One of the bigger projects that I worked on during my career break in 2022 was [
 ![](img/SpiritForge.png)
 
 ## Generative Art
-I had a lot of fun taking a class called *Drawing with Code* my junior year at Stanford, and since then I've sporadically been inspired to make more generative art.  
+I had a lot of fun taking a class called *Drawing with Code* at Stanford, and since then I've been inspired to make more generative art.  
 
 Recently I bought an Axidraw pen plotter, which I've been able to use to create some very unique paintings.  
 

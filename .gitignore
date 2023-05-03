@@ -1,6 +1,3 @@
-public/LaserLair_Windows.zip
-public/LaserLair_Mac.zip
-
 
 # Logs
 logs
@@ -71,3 +68,5 @@ node_modules/
 resources/_gen/
 themes/researcher/exampleSite/resources/_gen/
 public/
+
+.DS_Store
