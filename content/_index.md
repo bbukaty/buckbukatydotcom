@@ -39,12 +39,14 @@ I made a neat visualization of Ranjay Krishna's "Visual Genome" dataset while I 
 
 [Check it out here.](https://bbukaty.github.io/VG-relations/)  
 *Summer 2018*
+![](img/vg-relations.gif)
 
 ## CoNBot
 Worked with a project partner on an AI game-playing agent for the game Crypt of the NecroDancer as my final project for [CS231N](http://cs231n.stanford.edu/2018/): Convolutional Neural Networks for Visual Recognition. I wrote a nice summary article about what we did, which links to the code and our report+poster.  
 
 [Check it out here.](https://bbukaty.github.io/CoNBot/)  
 *Spring 2018*
+![](img/CoNBot-poster.png)
 
 ## Laser Lair
 A 3D puzzle game about using robots to get through a booby-trapped puzzle lair, made for CS248: Interactive Computer Graphics.  
