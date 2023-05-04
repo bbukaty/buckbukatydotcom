@@ -70,3 +70,4 @@ themes/researcher/exampleSite/resources/_gen/
 public/
 
 .DS_Store
+package-lock.json

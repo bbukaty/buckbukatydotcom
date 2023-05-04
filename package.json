@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "request": "^2.88.2",
+    "unzipper": "^0.10.11"
+  }
+}

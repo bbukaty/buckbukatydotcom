@@ -1,7 +1,7 @@
 {
   "hosting": {
     "public": "public",
-    "predeploy": "hugo",
+    "predeploy": "cd static/kanji-morph && node setup.js && cd ../.. && hugo",
     "ignore": [
       "firebase.json",
       "**/.*",
