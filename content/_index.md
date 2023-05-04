@@ -6,7 +6,7 @@ title: "Buck Bukaty"
 
 # My Projects
 *These are some of the projects I've worked on for classes, internships, or for fun.  
-For professional skills, check out [my resume](Buck_Bukaty_Resume.pdf).*
+For professional skills, check out [my resume](buck_bukaty_resume.pdf).*
 
 ## KanjiMorph
 As I studied Japanese kanji characters, I wanted to make an art project involving kanji. I imagined them flowing between each other with "living" strokes.  
