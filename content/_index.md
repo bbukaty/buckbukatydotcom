@@ -8,17 +8,31 @@ title: "Buck Bukaty"
 *These are some of the projects I've worked on for classes, internships, or for fun.  
 For professional skills, check out [my resume](buck_bukaty_resume.pdf).*
 
+## Nonograms
+I was introduced to nonogram puzzles recently, and thought it would be fun to build a solver for them. I intentionally didn't look up any existing approaches and dove into the problem from scratch.
+
+I ended up with a pretty competent solver that only gets stuck on inferences that aren't super obvious to me as a human (though I'm definitely a nonogram novice).
+
+I also built a web scraper for an online nonogram puzzle database to test my algorithm against, and was able to successfully solve 87% of the ~4000 puzzles I downloaded.
+
+Here are some examples of puzzles it successfully solved and didn't solve. Orange squares represent the remaining unsolved portions of a puzzle.
+
+#### Image
+
+More info at TODO LINK.
+
+
 ## KanjiMorph
 As I studied Japanese kanji characters, I wanted to make an art project involving kanji. I imagined them flowing between each other with "living" strokes.  
 
-So, here's KanjiMorph! It's a custom animation algorithm I wrote that morphs between kanji characters by moving their individual strokes. To see it in action, look below for some of the kanji I’m studying this week!
+So, here's KanjiMorph! It's a custom animation algorithm I wrote that morphs between kanji characters by moving their individual strokes. To see it in action, look below for some of the kanji I was studying as I worked on the algorithm!
 
 [Additional demo here.](https://buckbukaty.com/kanji-morph)  
 *April 2023*
 ![](img/wk26.gif)
 
 ## SpiritForge
-One of the bigger projects that I worked on during my career break in 2022 was [SpiritForge](https://spiritforge.app), a web tool I made with a friend to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
+Another project I worked on towards the beginning of my career break in 2022 was [SpiritForge](https://spiritforge.app), a web tool I made with a friend to streamline the process of making custom content (cards and spirits) for the board game [Spirit Island](https://boardgamegeek.com/boardgame/162886/spirit-island).  
 
 
 [Check it out here.](https://spiritforge.app)  

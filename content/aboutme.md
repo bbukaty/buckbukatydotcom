@@ -10,9 +10,11 @@ I'm a software engineer, most recently at Atlassian.
 
 Check out [my resume](buck_bukaty_resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
 
-### My Next Adventure... 日本へ！
-In 2022, I downloaded a language study app to learn some survival Japanese because I was interested in traveling there. Before I knew it, I was fascinated with the language, as well as Japan’s unique culture and institutions.
+### What I've been up to...
+If, in the beginning of 2021 when I had just left Atlassian, you told me I’d end up working at a coffee shop in San Francisco and casually speaking Japanese with my coworkers, I’d be at least a little perplexed.
 
-Now I’m rigorously self-studying written and spoken Japanese, and pursuing software engineering opportunities that would support my goal of moving to Japan!
+I’m very fortunate to have been able to take this long career break to explore my hobbies, find new passions, and meet so many interesting people. (See below for more highlights!)
 
-In the meantime, I’ve found a part time job at a small Japanese-owned cafe in San Francisco, where I’m getting my first opportunities for real conversation practice with new coworkers and friends.
+Now, having found a community and a sense of belonging, I’m ready to return to my software engineering career here in San Francisco, instead of Japan, my previous plan.
+
+I’ve been challenged and I’ve learned a lot about myself during this time off, so with a new sense of what I bring to the table as a software engineer I’m excited to join a team where I can scale up my impact.
