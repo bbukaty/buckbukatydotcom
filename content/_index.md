@@ -9,17 +9,17 @@ title: "Buck Bukaty"
 For professional skills, check out [my resume](buck_bukaty_resume.pdf).*
 
 ## Nonograms
-I was introduced to nonogram puzzles recently, and thought it would be fun to build a solver for them. I intentionally didn't look up any existing approaches and dove into the problem from scratch.
+I was introduced to nonogram puzzles recently, and they reminded me of the kinds of problems you encounter on algorithm practice sites. 
 
-I ended up with a pretty competent solver that only gets stuck on inferences that aren't super obvious to me as a human (though I'm definitely a nonogram novice).
+It seemed like it would be fun to build a nonogram solver from scratch, so I intentionally didn't look up any existing approaches and dove into the problem. In the process, I also ended up building a web scraper for a large online nonogram puzzle database to test my algorithm against.
 
-I also built a web scraper for an online nonogram puzzle database to test my algorithm against, and was able to successfully solve 87% of the ~4000 puzzles I downloaded.
+I ended up with a pretty competent solver that only got stuck on inferences that weren't obvious to me as a human (though I'm definitely a nonogram novice). It solved 87% of the ~4000 puzzles I scraped.
 
 Here are some examples of puzzles it successfully solved and didn't solve. Orange squares represent the remaining unsolved portions of a puzzle.
 
 #### Image
 
-More info at TODO LINK.
+More info in the [project repository](https://github.com/bbukaty/nonograms).
 
 
 ## KanjiMorph
