@@ -11,9 +11,9 @@ I'm a software engineer, most recently at Atlassian.
 Check out [my resume](buck_bukaty_resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
 
 ### What I've been up to...
-If, in the beginning of 2021 when I had just left Atlassian, you told me I’d end up working at a coffee shop in San Francisco and casually speaking Japanese with my coworkers, I’d be at least a little perplexed.
+In the beginning of 2021 just after leaving Atlassian, if you had told me I’d end up working at a coffee shop in San Francisco and casually speaking Japanese with my coworkers, I’d be at least a little perplexed.
 
-I’m very fortunate to have been able to take this long career break to explore my hobbies, find new passions, and meet so many interesting people. (See below for more highlights!)
+I’m very fortunate to have been able to take this career break to explore my hobbies, find new passions, and meet so many interesting people.
 
 Now, having found a community and a sense of belonging, I’m ready to return to my software engineering career here in San Francisco, instead of Japan, my previous plan.
 
