@@ -11,10 +11,6 @@ I'm a software engineer, most recently at Atlassian.
 Check out [my resume](buck_bukaty_resume.pdf), or feel free to shoot me an email at [hello@buckbukaty.com](mailto:hello@buckbukaty.com).
 
 ### What I've been up to...
-In the beginning of 2021 just after leaving Atlassian, if you had told me I’d end up working at a coffee shop in San Francisco and casually speaking Japanese with my coworkers, I’d be at least a little perplexed.
+After spending most of 2023 intensely studying written and spoken Japanese and networking to try and land an on-site software role in Tokyo, I made the difficult decision to change my mind and stay in San Francisco. Along that journey I developed important friendships and relationships, and found an expansive and welcoming community for Magic: The Gathering, a passion I expect to continue for many years.
 
-I’m very fortunate to have been able to take this career break to explore my hobbies, find new passions, and meet so many interesting people.
-
-Now, having found a community and a sense of belonging, I’m ready to return to my software engineering career here in San Francisco, instead of Japan, my previous plan.
-
-I’ve been challenged and I’ve learned a lot about myself during this time off, so with a new sense of what I bring to the table as a software engineer I’m excited to join a team where I can scale up my impact.
+After an exciting semester making data science contributions to an integrative biology paper at SFSU’s Stillman Lab, I’m excited about the possibility of bringing my software engineering background into the climate/sustainability space, but open to other kinds of software engineering work.
