@@ -9,16 +9,16 @@ title: "Buck Bukaty"
 For professional skills, check out [my resume](buck_bukaty_resume.pdf).*
 
 ## Stillman Lab Data Analysis Contributions
-During the Spring semester at San Francisco State University I worked with [Dr. Jonathon Stillman](https://ib.berkeley.edu/labs/stillman/) and a group of talented graduate students on a review paper, Ecophysiological Responses to Heat Waves in the Marine Intertidal Zone.
+During the Spring semester at San Francisco State University I worked with [Dr. Jonathon Stillman](https://ib.berkeley.edu/labs/stillman/) and a group of talented graduate students on a review paper, *Ecophysiological Responses to Heat Waves in the Marine Intertidal Zone*.
 
-Dr. Stillman wanted to know if it might be possible to use publicly available datasets to identify seasons and locations where low tide and peak sun exposure cooccurred, and how those factors contribute to intertidal heat waves. I began attending weekly class sessions and writing code to investigate this.
+Dr. Stillman wanted to know if it might be possible to use publicly available datasets to identify seasons and locations where low tide and peak sun exposure co-occurred, and how those factors contribute to intertidal heat waves. I began attending weekly class sessions and writing code to investigate this.
 
 
 Using my background in data science at Stanford to work on a project with implications for conservation efforts was exciting, and I created a model of intertidal temperatures that compared very convincingly to recorded temperature data from a site on the California coast. 
 
 ![An image of a scatter plot comparing tide-scaled solar radiation and recorded temperatures at a coastal site.](img/stillman-scatter.png)
 
-Dr. Stillman was excited to include this result in the paper, which is currently in review. I’m exploring my options for continuing this research and additional opportunities to apply my software engineering background to climate and sustainability issues!
+Dr. Stillman was excited to include this result in the paper, which was recently accepted into the Journal of Experimental Biology!
 
 Code notebook viewable in the [project repository](https://github.com/bbukaty/heat-wave-analysis/blob/main/09_scatter-plot-supplemental.ipynb).
 
